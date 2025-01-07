@@ -3,7 +3,7 @@ import shutil
 from os import listdir
 from os.path import isfile, join
 
-file_path = r'C:\Users\aksha\Downloads'
+file_path = r'C:\Users\UserName\Downloads' # enter the name of your own file path
 files = [f for f in listdir(file_path) if isfile(join(file_path, f))]
 
 file_list = []
